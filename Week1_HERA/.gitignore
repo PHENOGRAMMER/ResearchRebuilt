@@ -1,0 +1,7 @@
+echo "venv/
+__pycache__/
+*.pyc
+.env
+*.dll
+*.pyd
+experience_library.json" > .gitignore

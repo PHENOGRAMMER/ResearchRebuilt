@@ -1,0 +1,38 @@
+[
+  {
+    "id": 0,
+    "query_type": "bridge",
+    "insight": "For bridge questions, topology QueryDecomposer \u2192 Retriever \u2192 EvidenceSelector \u2192 ConcludeAgent works well.",
+    "utility": 0
+  },
+  {
+    "id": 1,
+    "query_type": "bridge",
+    "insight": "For bridge questions, topology QueryDecomposer \u2192 Retriever \u2192 EvidenceSelector \u2192 ConcludeAgent works well.",
+    "utility": 0
+  },
+  {
+    "id": 2,
+    "query_type": "bridge",
+    "insight": "For bridge questions, decompose more carefully before retrieval.",
+    "utility": 0
+  },
+  {
+    "id": 3,
+    "query_type": "bridge",
+    "insight": "For bridge questions, topology QueryDecomposer \u2192 Retriever \u2192 EvidenceSelector \u2192 ConcludeAgent works well.",
+    "utility": 0
+  },
+  {
+    "id": 4,
+    "query_type": "bridge",
+    "insight": "For bridge questions, topology QueryDecomposer \u2192 Retriever \u2192 EvidenceSelector \u2192 ConcludeAgent works well.",
+    "utility": 0
+  },
+  {
+    "id": 5,
+    "query_type": "bridge",
+    "insight": "For bridge questions, decompose more carefully before retrieval.",
+    "utility": 0
+  }
+]

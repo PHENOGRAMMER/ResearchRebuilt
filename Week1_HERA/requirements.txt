@@ -1,0 +1,7 @@
+groq
+colorama
+python-dotenv
+sentence-transformers
+faiss-cpu
+numpy
+Wikipedia-API

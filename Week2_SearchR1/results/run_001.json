@@ -1,0 +1,41 @@
+[
+  {
+    "query": "Which university did the creator of Python graduate from?",
+    "expected": "University of Amsterdam",
+    "short_name": "Python Creator",
+    "hops": 2,
+    "no_retrieval": "Guido van Rossum, the creator of Python, graduated from the University of Amsterdam in the Netherlands.",
+    "naive_rag": "There is no information in the provided context about the creator of Monty Python graduating from a university.",
+    "search_r1": "[Synthesized] The University of Amsterdam.",
+    "searches": 3,
+    "correct_vanilla": true,
+    "correct_naive": false,
+    "correct_r1": true
+  },
+  {
+    "query": "What is the capital of the country where the Eiffel Tower is located?",
+    "expected": "Paris",
+    "short_name": "Eiffel Tower",
+    "hops": 2,
+    "no_retrieval": "The Eiffel Tower is located in France. The capital of France is Paris.",
+    "naive_rag": "The capital of the country where the Eiffel Tower is located is Paris.",
+    "search_r1": "The capital of the country where the Eiffel Tower is located is Paris.",
+    "searches": 2,
+    "correct_vanilla": true,
+    "correct_naive": true,
+    "correct_r1": true
+  },
+  {
+    "query": "Who was the US president when the Berlin Wall fell?",
+    "expected": "George H. W. Bush",
+    "short_name": "Berlin Wall",
+    "hops": 2,
+    "no_retrieval": "The US President when the Berlin Wall fell on November 9, 1989, was George H.W. Bush. However, the Berlin Wall had begun to fall in the days leading up to his inauguration on January 20, 1990.",
+    "naive_rag": "The context does not contain enough information to answer who the US president was when the Berlin Wall fell. However, it does mention that the Berlin Wall was constructed in 1961 and fell in 1989.",
+    "search_r1": "[Synthesized] <think>\nFrom the previous searches, I know that the Berlin Wall fell in 1989. I also know that I need to find the US president who was in office at that time. However, the search results I received earlier did not provide the specific information about the US president in office in 1989. Instead, they provided information about the vice president's role and the presidential line of succession. I s",
+    "searches": 2,
+    "correct_vanilla": true,
+    "correct_naive": false,
+    "correct_r1": false
+  }
+]
