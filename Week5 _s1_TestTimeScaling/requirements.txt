@@ -1,0 +1,7 @@
+﻿
+colorama==0.4.6
+groq==0.37.1
+langchain-groq==0.3.8
+python-dotenv==1.2.2
+
+
