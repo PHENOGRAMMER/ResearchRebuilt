@@ -1,0 +1,5 @@
+groq
+sentence-transformers
+numpy
+colorama
+python-dotenv
